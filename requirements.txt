@@ -1,0 +1,6 @@
+streamlit
+pandas
+Pillow
+openpyxl
+mysql-connector-python
+oss2
