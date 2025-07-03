@@ -17,11 +17,11 @@ st.set_page_config(
 )
 
 # OSS配置
-access_key_id = os.getenv('OSS_ACCESS_KEY_ID', '')
-access_key_secret = os.getenv('OSS_ACCESS_KEY_SECRET', '')
-endpoint = os.getenv('OSS_ENDPOINT', '')
-text_bucket_name = os.getenv('OSS_TEXT_BUCKET', '')
-image_bucket_name = os.getenv('OSS_IMAGE_BUCKET', '')
+access_key_id = 'LTAI5tAzmjQ8GBZDocozoBSy'
+access_key_secret = '42cL9W2JOvMuYgTVGAES6Hi2593BjP'
+endpoint = 'oss-cn-wuhan-lr.aliyuncs.com'
+text_bucket_name = 'testcxf'
+image_bucket_name = 'tupian-cxf'
 
 # 首先定义所有辅助函数
 def get_available_files():
@@ -83,10 +83,10 @@ def load_local_material_names():
 
 # 数据库连接配置
 DB_CONFIG = {
-    'host': os.getenv('DB_HOST', ''),
-    'user': os.getenv('DB_USER', ''),
-    'password': os.getenv('DB_PASSWORD', ''),
-    'port': int(os.getenv('DB_PORT', '3306')),
+    'host': 'rm-bp1174e22118zcprheo.mysql.rds.aliyuncs.com',
+    'user': 'cxf8812572666',
+    'password': 'Cxf88023706',
+    'port': 3306,
     'charset': 'utf8mb4',
     'connect_timeout': 10,
     'use_pure': True,  # 使用纯Python实现
