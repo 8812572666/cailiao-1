@@ -259,7 +259,7 @@ LOCAL_DB_CONFIG = {
 
 # 云端数据库配置
 CLOUD_DB_CONFIG = {
-    'host': 'rm-bp1174e22118zcprheo.mysql.rds.aliyuncs.com',
+    'host': 'rm-cn-w5g4c7g10000azfo.rwlb.rds.aliyuncs.com',
     'user': 'cxf8812572666',
     'password': 'Cxf88023706',
     'port': 3306,
